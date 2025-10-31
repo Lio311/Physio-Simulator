@@ -4,7 +4,11 @@ import plotly.graph_objects as go
 from scipy.integrate import solve_ivp
 
 # --- Page Configuration ---
-st.set_page_config(layout="wide", page_title="Physiological Simulator")
+st.set_page_config(
+    layout="wide",
+    page_title="Glucose-Insulin Minimal Model Simulator",
+    page_icon="🧪"
+)
 st.title("Glucose-Insulin Minimal Model Simulator")
 st.markdown("An interactive simulator based on a simplified model of glucose and insulin dynamics.")
 
